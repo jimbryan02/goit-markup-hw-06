@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>WebStudio</title>
-    <meta name="description" content="" />
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,12 +86,12 @@
               </button>
               <h3>Deje sus datos, nos contactaremos con usted</h3>
                
-              <form>
+            <form>
                 <label for="label-name">
                   Nombre
                 </label>
                 <div class="modal-relative">
-                  <input class="modal-input" type="text" name="name" id="label-name" required>
+                  <input class="modal-input" type="text" name="name" id="label-name" required />
                 <svg class="modal-icon">
                  <use href="./images/symbol-defs.svg#icon-persona-negra-18dp-1-1"> </use>
                 </svg>
@@ -101,7 +101,7 @@
                 Telefono
               </label>
               <div class="modal-relative">
-                <input class="modal-input" type="text" name="name" id="label-phone" required>
+                <input class="modal-input" type="text" name="name" id="label-phone" required />
                 <svg class="modal-icon">
                   <use href="./images/symbol-defs.svg#icon-telfono-negro-18dp-1-1"> </use>
                  </svg>
@@ -111,32 +111,34 @@
               Email
             </label>
             <div class="modal-relative">
-              <input class="modal-input" type="text" name="name" id="label-email" required>
+              <input class="modal-input" type="text" name="name" id="label-email" required />
             <svg class="modal-icon">
              <use href="./images/symbol-defs.svg#icon-correo-electrnico-negro-18dp-1-1"> </use>
             </svg>
            </div>
 
-           <label for="label-cooments">
+           <label for="label-comments">
             Comentarios
            </label>
-            <textarea name="feedback" rows="5" id="label-comment" placeholder="Introduzca el texto"></textarea>
+            <textarea name="feedback" rows="5" id="label-comments" placeholder="Introduzca el texto"></textarea>
               
             <div class="modal-relative">
             <label class="custom-checkmark-label">
-              <input type="checkbox" id="input-accept" name="accept-terms" required hidden>
+            
+              <input class="modal-checkbox" type="checkbox" name="terms-conditions" value="accept-terms" required />
+
               <span class="custom-checkmark">
                 <svg class="custom-checkmark-icon">
-                  <use href="./images/symbol-defs.svg#checkmark"></use>
+                  <use href="./images/symbol-defs.svg#checkmark"> </use>
                 </svg>
               </span>
               <p class="terms-conditions">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</p>
-             </label>
+            </label>
             </div>
             
               
             <button class="send-button" type="submit">Enviar</button>
-              </form>
+          </form>
 
             </div>
           </div>
@@ -258,8 +260,7 @@
                   src="./images/product-designer.jpg"
                   alt="disenador de productos"
                   width="270"
-                  class="image"
-                />
+                  class="image">
                 <p class="staff-names">Andres Cubo</p>
                 <p class="staff-description">Diseñador de producto</p>
                 <ul class="social-icons">
@@ -591,19 +592,23 @@
           </ul>
         </div>
 
+        <form class="suscribe-input-button">
         <div class="suscribe-form">
           <p>suscribase al boletin informativo</p>
+      
           <label for="suscribe-email">
           
           </label>
             <input type="email" name="email" id="suscribe-email" placeholder="Correo electronico"/>
         </div>
         
-        <button type="submit" class="suscribe-button">Suscribase
-          <svg class="send-icon" width="24px" height="24px">
-            <use href="./images/symbol-defs.svg#icon-enviar-cono-1"></use>
-          </svg>
-        </button>
+         <button type="submit" class="suscribe-button">Suscribase
+            <svg class="send-icon" width="24px" height="24px">
+             <use href="./images/symbol-defs.svg#icon-enviar-cono-1"></use>
+            </svg>
+          </button>
+        </form>
+         
       
       </div>
     </footer>

@@ -353,6 +353,7 @@ color: var(--white)
 }
 
 .suscribe-form{
+  display: inline-block;
   margin-right: 12px;
   margin-bottom: 34px;
 }
@@ -393,6 +394,11 @@ color: var(--white)
   border: none;
   margin-bottom: 34px;
 } 
+
+.suscribe-input-button{
+  display: flex;
+  align-items: flex-end;
+}
 
 /* titulo de la pagina index*/
 .index-container {
@@ -623,6 +629,11 @@ color: var(--white)
     cursor: pointer;
   }
 
+  .modal-checkbox{
+    position: absolute;
+    opacity: 0;
+  }
+
 /* caracteristicas de la pagina index*/
   .section-title{
     font-weight: 700;
@@ -836,5 +847,4 @@ color: var(--white)
   .clients-icon-background:focus .client-icon {
     fill:var(--blue);
   }
-  
   
