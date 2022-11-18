@@ -575,6 +575,8 @@ color: var(--white)
   .custom-checkmark-icon{
     display: none;
     fill: var(--white);
+    height: 20px;
+    width: 20px;
   }
 
   .custom-checkmark-label input[type="checkbox"]:checked + .custom-checkmark .custom-checkmark-icon{
